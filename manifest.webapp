@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "DKM3.CC",
+  "launch_path": "/index.html",
+  "description": "David K Moorman",
+  "icons": {
+    "128": "/icons/icon-128.png"
+  },
+  "developer": {
+    "name": "David K MOORMAN",
+    "url": "https://dkm3.cc"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "DKM3.CC,
+      "description": "David K Moorman"
+    }
+  }
+}

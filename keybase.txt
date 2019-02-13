@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/dkm3
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dkm3.cc
+  * I am dkm3 (https://keybase.io/dkm3) on keybase.
+  * I have a public key with fingerprint C9DD F980 680C 35D2 A75B  F927 7D26 CA12 0EDC 57E4
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010189a3924ba0f65f8107e3426bde51e9f1f3cbb48421f96d5f64260ca90047b7120a",
+      "fingerprint": "c9ddf980680c35d2a75bf9277d26ca120edc57e4",
+      "host": "keybase.io",
+      "key_id": "7d26ca120edc57e4",
+      "kid": "010189a3924ba0f65f8107e3426bde51e9f1f3cbb48421f96d5f64260ca90047b7120a",
+      "uid": "1c298704804c75777c3da7379a6d4219",
+      "username": "dkm3"
+    },
+    "service": {
+      "hostname": "dkm3.cc",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1524463014,
+  "expire_in": 157680000,
+  "prev": "235c407c37037f1c98b450ae3f4ebcd258923c595597762727eff51553541e9e",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMIiAnicrVJdSBRRGF3tz4RIKcPooRp/KFqXmTtz586sBVmJWqgIhSbaNnPnjjuo
+O+vu7JqJiZpKagj9iEJ/EpnkQ0hoIUJmaogVQUG9iJT4ouVDKhFYdEcKeuix+3K5
+33fOuec7fGNb1jmiI2pnP/X0Jk88j5h61h5yFE6HeqoZ1dSqGHc1U0rWLlKmkaDl
+KTU0xs2wHMtJssLLQFAVVhehLnEsIrwARFUjkCOyzuk8VlVBEgCny6IGdZE2WazI
+LCsgFXGAVRgnoxu+EhLwBwyfRWWxrGm6LLGixGIeakBBUNVlgJAGRKxQCtEwRESg
+RK8ZtBnUnKoEicswaY0+PGv2/oH/z75Da3IcBrKEWEFiBYwgQgjzmoJ4JCuiRvmy
+DQySgE8pJxStlZbzTI2ToZWwgYkdqj3FX10XxpTiD5iWic0yWvRalj/otklWld9G
+VRLV85vvUQ2fRuOjjDAJBA3Tx7g5isSWYQtyEAiCyLOc4GTIOb8RIB7DRkBE06XH
+/oeEqSTgIRZYah2xPNI5LEuqAFmF8LpAVKwBKMmAx1CGUEZIBAggouuQg5CHAg2M
+MPZEFT6TagPqUymhmkGjxKdYoQBhakZHitY7IqIdGzdE2nvliN4c82fbki5FOT7E
+Wven60bbEsNZRwuO7H9/ZWWoOS6jbmBn/fK+hpKBxh9NeSkH4rrVpxXHulrrGibb
+QWVOJTfMF+3Jy19uizp4xpy797Vvr7exd9vQo4tNs7PG2HzH25P+hPGJ7EW3v897
+eaE1tHo1jmThG/HJ7erH9IXD76b6YwtbM8c753asOmYWUru0XQO3haUu97WzCau5
+SVs7U13nv6U/+dw12fzqRI4zbbituC38c3SkNnHFG77lu3t9cTJ72pk28ia/smn+
+0M2ZmOKl6MXIO6D7QcbcYFX96UBWRlp8wWt3y/G0jJzMhtzGlw8Ht7cwi493f882
++iNJSuOFF2Jy+6Yvro5TvwBYyjzM
+=LoTY
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dkm3
+
+==================================================================

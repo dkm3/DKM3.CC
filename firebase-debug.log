@@ -1,0 +1,40 @@
+[debug] [2019-02-13T03:07:20.317Z] ----------------------------------------------------------------------
+[debug] [2019-02-13T03:07:20.320Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\david\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-02-13T03:07:20.320Z] CLI Version:   6.3.1
+[debug] [2019-02-13T03:07:20.320Z] Platform:      win32
+[debug] [2019-02-13T03:07:20.320Z] Node Version:  v8.11.1
+[debug] [2019-02-13T03:07:20.323Z] Time:          Tue Feb 12 2019 22:07:20 GMT-0500 (Eastern Standard Time)
+[debug] [2019-02-13T03:07:20.323Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-13T03:07:20.344Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-13T03:07:20.345Z] > authorizing via signed-in user
+[debug] [2019-02-13T03:07:20.345Z] [iam] checking project dkm3cc for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]
+[debug] [2019-02-13T03:07:20.347Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-13T03:07:20.348Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-13T03:07:24.333Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T03:07:24.446Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dkm3cc:testIamPermissions  
+
+[debug] [2019-02-13T03:07:24.884Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T03:07:24.886Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/dkm3cc  
+ 
+[debug] [2019-02-13T03:07:25.345Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dkm3cc'...
+[info] 
+[info] i  deploying database, storage, functions, hosting
+[info] i  database: checking rules syntax...
+[debug] [2019-02-13T03:07:31.642Z] >>> HTTP REQUEST PUT https://dkm3cc.firebaseio.com/.settings/rules.json?dryRun=true  
+ {
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+[debug] [2019-02-13T03:07:31.933Z] <<< HTTP RESPONSE 423
+[debug] [2019-02-13T03:07:31.933Z] <<< HTTP RESPONSE BODY {
+  "error" : "The Firebase database 'dkm3cc' has been disabled by a database owner."
+}
+
+[error] 
+[error] Error: Unexpected error while deploying database rules.
